@@ -10,6 +10,24 @@
 		EC7166CF1DE5F2F5006F1386 /* ReactiveAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7166C51DE5F2F5006F1386 /* ReactiveAPI.framework */; };
 		EC7166D41DE5F2F5006F1386 /* ReactiveAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166D31DE5F2F5006F1386 /* ReactiveAPITests.swift */; };
 		EC7166D61DE5F2F5006F1386 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7166F41DE5F496006F1386 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
+		EC7166F51DE5F496006F1386 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7166F61DE5F496006F1386 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
+		EC7166F71DE5F496006F1386 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
+		EC71670C1DE5F5E5006F1386 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7167011DE5F5CF006F1386 /* ReactiveKit.framework */; };
+		EC7ADFC31E1AD1D300D8F7E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EC1DE5F496006F1386 /* Client.swift */; };
+		EC7ADFC41E1AD1D300D8F7E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
+		EC7ADFC51E1AD1D300D8F7E0 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7ADFC61E1AD1D300D8F7E0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
+		EC7ADFC71E1AD1D300D8F7E0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
+		EC7ADFC81E1AD1D500D8F7E0 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7ADFD61E1AD23100D8F7E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EC1DE5F496006F1386 /* Client.swift */; };
+		EC7ADFD71E1AD23100D8F7E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
+		EC7ADFD81E1AD23100D8F7E0 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7ADFD91E1AD23100D8F7E0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
+		EC7ADFDA1E1AD23100D8F7E0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
+		EC7ADFDB1E1AD23400D8F7E0 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC282CB1E1AACA50032EEB2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EC1DE5F496006F1386 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +38,48 @@
 			remoteGlobalIDString = EC7166C41DE5F2F5006F1386;
 			remoteInfo = ReactiveAPI;
 		};
+		EC7167001DE5F5CF006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECBCCDD01BEB6B9A00723476;
+			remoteInfo = "ReactiveKit-iOS";
+		};
+		EC7167021DE5F5CF006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16C33AF91BEFB72500A0DBE0;
+			remoteInfo = "ReactiveKit-tvOS";
+		};
+		EC7167041DE5F5CF006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16C33B161BEFB9CB00A0DBE0;
+			remoteInfo = "ReactiveKit-watchOS";
+		};
+		EC7167061DE5F5CF006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16C33B241BEFBA0100A0DBE0;
+			remoteInfo = "ReactiveKit-macOS";
+		};
+		EC7167081DE5F5CF006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECBCCDDA1BEB6B9B00723476;
+			remoteInfo = "ReactiveKit-Tests";
+		};
+		EC71670A1DE5F5DD006F1386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBCCDCF1BEB6B9A00723476;
+			remoteInfo = "ReactiveKit-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +89,15 @@
 		EC7166CE1DE5F2F5006F1386 /* ReactiveAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7166D31DE5F2F5006F1386 /* ReactiveAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveAPITests.swift; sourceTree = "<group>"; };
 		EC7166D51DE5F2F5006F1386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7166EC1DE5F496006F1386 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EC7166F01DE5F496006F1386 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EC7166F11DE5F496006F1386 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveKit.xcodeproj; path = Carthage/Checkouts/ReactiveKit/ReactiveKit.xcodeproj; sourceTree = "<group>"; };
+		EC7ADFBB1E1AD18200D8F7E0 /* ReactiveAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7ADFCE1E1AD21200D8F7E0 /* ReactiveAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7ADFE11E1AD27000D8F7E0 /* ReactiveAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC71670C1DE5F5E5006F1386 /* ReactiveKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +117,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC7ADFB71E1AD18200D8F7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFCA1E1AD21200D8F7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFDD1E1AD27000D8F7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EC7166BB1DE5F2F5006F1386 = {
 			isa = PBXGroup;
 			children = (
+				EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */,
+				EC7166EB1DE5F496006F1386 /* Sources */,
 				EC7166C71DE5F2F5006F1386 /* ReactiveAPI */,
 				EC7166D21DE5F2F5006F1386 /* ReactiveAPITests */,
 				EC7166C61DE5F2F5006F1386 /* Products */,
@@ -64,6 +157,9 @@
 			children = (
 				EC7166C51DE5F2F5006F1386 /* ReactiveAPI.framework */,
 				EC7166CE1DE5F2F5006F1386 /* ReactiveAPITests.xctest */,
+				EC7ADFBB1E1AD18200D8F7E0 /* ReactiveAPI.framework */,
+				EC7ADFCE1E1AD21200D8F7E0 /* ReactiveAPI.framework */,
+				EC7ADFE11E1AD27000D8F7E0 /* ReactiveAPI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +182,30 @@
 			path = ReactiveAPITests;
 			sourceTree = "<group>";
 		};
+		EC7166EB1DE5F496006F1386 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EC7166EC1DE5F496006F1386 /* Client.swift */,
+				EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */,
+				EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */,
+				EC7166F01DE5F496006F1386 /* Request.swift */,
+				EC7166F11DE5F496006F1386 /* Utilities.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EC7166F91DE5F5CF006F1386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7167011DE5F5CF006F1386 /* ReactiveKit.framework */,
+				EC7167031DE5F5CF006F1386 /* ReactiveKit.framework */,
+				EC7167051DE5F5CF006F1386 /* ReactiveKit.framework */,
+				EC7167071DE5F5CF006F1386 /* ReactiveKit.framework */,
+				EC7167091DE5F5CF006F1386 /* ReactiveKit-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,12 +217,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC7ADFB81E1AD18200D8F7E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7ADFC81E1AD1D500D8F7E0 /* ReactiveAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFCB1E1AD21200D8F7E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7ADFDB1E1AD23400D8F7E0 /* ReactiveAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFDE1E1AD27000D8F7E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EC7166C41DE5F2F5006F1386 /* ReactiveAPI */ = {
+		EC7166C41DE5F2F5006F1386 /* ReactiveAPI-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC7166D91DE5F2F5006F1386 /* Build configuration list for PBXNativeTarget "ReactiveAPI" */;
+			buildConfigurationList = EC7166D91DE5F2F5006F1386 /* Build configuration list for PBXNativeTarget "ReactiveAPI-iOS" */;
 			buildPhases = (
 				EC7166C01DE5F2F5006F1386 /* Sources */,
 				EC7166C11DE5F2F5006F1386 /* Frameworks */,
@@ -112,8 +255,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				EC71670B1DE5F5DD006F1386 /* PBXTargetDependency */,
 			);
-			name = ReactiveAPI;
+			name = "ReactiveAPI-iOS";
 			productName = ReactiveAPI;
 			productReference = EC7166C51DE5F2F5006F1386 /* ReactiveAPI.framework */;
 			productType = "com.apple.product-type.framework";
@@ -136,6 +280,60 @@
 			productReference = EC7166CE1DE5F2F5006F1386 /* ReactiveAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EC7ADFBA1E1AD18200D8F7E0 /* ReactiveAPI-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7ADFC01E1AD18200D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-macOS" */;
+			buildPhases = (
+				EC7ADFB61E1AD18200D8F7E0 /* Sources */,
+				EC7ADFB71E1AD18200D8F7E0 /* Frameworks */,
+				EC7ADFB81E1AD18200D8F7E0 /* Headers */,
+				EC7ADFB91E1AD18200D8F7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveAPI-macOS";
+			productName = "ReactiveAPI-macOS";
+			productReference = EC7ADFBB1E1AD18200D8F7E0 /* ReactiveAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC7ADFCD1E1AD21200D8F7E0 /* ReactiveAPI-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7ADFD31E1AD21200D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-tvOS" */;
+			buildPhases = (
+				EC7ADFC91E1AD21200D8F7E0 /* Sources */,
+				EC7ADFCA1E1AD21200D8F7E0 /* Frameworks */,
+				EC7ADFCB1E1AD21200D8F7E0 /* Headers */,
+				EC7ADFCC1E1AD21200D8F7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveAPI-tvOS";
+			productName = "ReactiveAPI-tvOS";
+			productReference = EC7ADFCE1E1AD21200D8F7E0 /* ReactiveAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC7ADFE01E1AD27000D8F7E0 /* ReactiveAPI-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7ADFE61E1AD27000D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-watchOS" */;
+			buildPhases = (
+				EC7ADFDC1E1AD27000D8F7E0 /* Sources */,
+				EC7ADFDD1E1AD27000D8F7E0 /* Frameworks */,
+				EC7ADFDE1E1AD27000D8F7E0 /* Headers */,
+				EC7ADFDF1E1AD27000D8F7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveAPI-watchOS";
+			productName = "ReactiveAPI-watchOS";
+			productReference = EC7ADFE11E1AD27000D8F7E0 /* ReactiveAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +346,22 @@
 				TargetAttributes = {
 					EC7166C41DE5F2F5006F1386 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					EC7166CD1DE5F2F5006F1386 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC7ADFBA1E1AD18200D8F7E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC7ADFCD1E1AD21200D8F7E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC7ADFE01E1AD27000D8F7E0 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -166,13 +377,60 @@
 			mainGroup = EC7166BB1DE5F2F5006F1386;
 			productRefGroup = EC7166C61DE5F2F5006F1386 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EC7166F91DE5F5CF006F1386 /* Products */;
+					ProjectRef = EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				EC7166C41DE5F2F5006F1386 /* ReactiveAPI */,
+				EC7166C41DE5F2F5006F1386 /* ReactiveAPI-iOS */,
+				EC7ADFBA1E1AD18200D8F7E0 /* ReactiveAPI-macOS */,
+				EC7ADFCD1E1AD21200D8F7E0 /* ReactiveAPI-tvOS */,
+				EC7ADFE01E1AD27000D8F7E0 /* ReactiveAPI-watchOS */,
 				EC7166CD1DE5F2F5006F1386 /* ReactiveAPITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EC7167011DE5F5CF006F1386 /* ReactiveKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveKit.framework;
+			remoteRef = EC7167001DE5F5CF006F1386 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC7167031DE5F5CF006F1386 /* ReactiveKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveKit.framework;
+			remoteRef = EC7167021DE5F5CF006F1386 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC7167051DE5F5CF006F1386 /* ReactiveKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveKit.framework;
+			remoteRef = EC7167041DE5F5CF006F1386 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC7167071DE5F5CF006F1386 /* ReactiveKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveKit.framework;
+			remoteRef = EC7167061DE5F5CF006F1386 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC7167091DE5F5CF006F1386 /* ReactiveKit-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveKit-Tests.xctest";
+			remoteRef = EC7167081DE5F5CF006F1386 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EC7166C31DE5F2F5006F1386 /* Resources */ = {
@@ -189,6 +447,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC7ADFB91E1AD18200D8F7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFCC1E1AD21200D8F7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFDF1E1AD27000D8F7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +475,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7166F71DE5F496006F1386 /* Utilities.swift in Sources */,
+				EC7166F61DE5F496006F1386 /* Request.swift in Sources */,
+				EC7166F51DE5F496006F1386 /* ParameterEncoding.swift in Sources */,
+				ECC282CB1E1AACA50032EEB2 /* Client.swift in Sources */,
+				EC7166F41DE5F496006F1386 /* HTTPMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +491,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC7ADFB61E1AD18200D8F7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7ADFC51E1AD1D300D8F7E0 /* ParameterEncoding.swift in Sources */,
+				EC7ADFC61E1AD1D300D8F7E0 /* Request.swift in Sources */,
+				EC7ADFC41E1AD1D300D8F7E0 /* HTTPMethod.swift in Sources */,
+				EC7ADFC71E1AD1D300D8F7E0 /* Utilities.swift in Sources */,
+				EC7ADFC31E1AD1D300D8F7E0 /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFC91E1AD21200D8F7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7ADFD81E1AD23100D8F7E0 /* ParameterEncoding.swift in Sources */,
+				EC7ADFD91E1AD23100D8F7E0 /* Request.swift in Sources */,
+				EC7ADFD71E1AD23100D8F7E0 /* HTTPMethod.swift in Sources */,
+				EC7ADFDA1E1AD23100D8F7E0 /* Utilities.swift in Sources */,
+				EC7ADFD61E1AD23100D8F7E0 /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ADFDC1E1AD27000D8F7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		EC7166D11DE5F2F5006F1386 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC7166C41DE5F2F5006F1386 /* ReactiveAPI */;
+			target = EC7166C41DE5F2F5006F1386 /* ReactiveAPI-iOS */;
 			targetProxy = EC7166D01DE5F2F5006F1386 /* PBXContainerItemProxy */;
+		};
+		EC71670B1DE5F5DD006F1386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveKit-iOS";
+			targetProxy = EC71670A1DE5F5DD006F1386 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -259,7 +579,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -306,7 +627,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -320,6 +642,7 @@
 		EC7166DA1DE5F2F5006F1386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -329,8 +652,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReactiveAPI;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +662,7 @@
 		EC7166DB1DE5F2F5006F1386 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -347,7 +672,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReactiveAPI;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -356,6 +681,7 @@
 		EC7166DD1DE5F2F5006F1386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPITests;
@@ -367,11 +693,142 @@
 		EC7166DE1DE5F2F5006F1386 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC7ADFC11E1AD18200D8F7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC7ADFC21E1AD18200D8F7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC7ADFD41E1AD21200D8F7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		EC7ADFD51E1AD21200D8F7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		EC7ADFE71E1AD27000D8F7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EC7ADFE81E1AD27000D8F7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ReactiveAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactivekit.ReactiveAPI.ReactiveAPI;
+				PRODUCT_NAME = ReactiveAPI;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -387,19 +844,45 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC7166D91DE5F2F5006F1386 /* Build configuration list for PBXNativeTarget "ReactiveAPI" */ = {
+		EC7166D91DE5F2F5006F1386 /* Build configuration list for PBXNativeTarget "ReactiveAPI-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7166DA1DE5F2F5006F1386 /* Debug */,
 				EC7166DB1DE5F2F5006F1386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7166DC1DE5F2F5006F1386 /* Build configuration list for PBXNativeTarget "ReactiveAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7166DD1DE5F2F5006F1386 /* Debug */,
 				EC7166DE1DE5F2F5006F1386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7ADFC01E1AD18200D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7ADFC11E1AD18200D8F7E0 /* Debug */,
+				EC7ADFC21E1AD18200D8F7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7ADFD31E1AD21200D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7ADFD41E1AD21200D8F7E0 /* Debug */,
+				EC7ADFD51E1AD21200D8F7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7ADFE61E1AD27000D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7ADFE71E1AD27000D8F7E0 /* Debug */,
+				EC7ADFE81E1AD27000D8F7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
