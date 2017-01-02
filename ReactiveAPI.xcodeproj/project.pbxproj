@@ -869,6 +869,7 @@
 				EC7ADFC21E1AD18200D8F7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7ADFD31E1AD21200D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -877,6 +878,7 @@
 				EC7ADFD51E1AD21200D8F7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7ADFE61E1AD27000D8F7E0 /* Build configuration list for PBXNativeTarget "ReactiveAPI-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -885,6 +887,7 @@
 				EC7ADFE81E1AD27000D8F7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

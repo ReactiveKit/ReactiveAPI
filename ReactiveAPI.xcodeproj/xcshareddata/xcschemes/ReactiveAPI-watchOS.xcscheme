@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EC7ADFE01E1AD27000D8F7E0"
-               BuildableName = "ReactiveAPI-watchOS.framework"
+               BuildableName = "ReactiveAPI.framework"
                BlueprintName = "ReactiveAPI-watchOS"
                ReferencedContainer = "container:ReactiveAPI.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC7ADFE01E1AD27000D8F7E0"
-            BuildableName = "ReactiveAPI-watchOS.framework"
+            BuildableName = "ReactiveAPI.framework"
             BlueprintName = "ReactiveAPI-watchOS"
             ReferencedContainer = "container:ReactiveAPI.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC7ADFE01E1AD27000D8F7E0"
-            BuildableName = "ReactiveAPI-watchOS.framework"
+            BuildableName = "ReactiveAPI.framework"
             BlueprintName = "ReactiveAPI-watchOS"
             ReferencedContainer = "container:ReactiveAPI.xcodeproj">
          </BuildableReference>
