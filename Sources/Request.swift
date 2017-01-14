@@ -22,6 +22,8 @@
 //  THE SOFTWARE.
 //
 
+import ReactiveKit
+
 public struct Request<Resource, Error: Swift.Error> {
 
   public var path: String
@@ -44,5 +46,12 @@ public struct Request<Resource, Error: Swift.Error> {
     self.headers = headers
     self.resource = resource
     self.error = error
+  }
+}
+
+extension Request {
+
+  public func response(using client: Client) -> Signal<Resource, Client.Error> {
+    return client.response(for: self)
   }
 }

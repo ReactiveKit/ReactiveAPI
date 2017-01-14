@@ -25,13 +25,14 @@
 import Foundation
 
 extension String {
-  func appendPathComponent(_ pathComponent: String) -> String {
+
+  func appendingPathComponent(_ pathComponent: String) -> String {
     return NSString(string: self).appendingPathComponent(pathComponent)
   }
 }
 
 func /(left: String, right: String) -> String {
-  return left.appendPathComponent(right)
+  return left.appendingPathComponent(right)
 }
 
 extension Dictionary {

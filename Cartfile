@@ -1,1 +1,1 @@
-github "ReactiveKit/ReactiveKit" "develop"
+github "ReactiveKit/ReactiveKit" ~> 3.2

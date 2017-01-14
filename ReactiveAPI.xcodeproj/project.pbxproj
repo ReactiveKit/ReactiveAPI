@@ -11,19 +11,19 @@
 		EC7166D41DE5F2F5006F1386 /* ReactiveAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166D31DE5F2F5006F1386 /* ReactiveAPITests.swift */; };
 		EC7166D61DE5F2F5006F1386 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC7166F41DE5F496006F1386 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
-		EC7166F51DE5F496006F1386 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7166F51DE5F496006F1386 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* RequestParameters.swift */; };
 		EC7166F61DE5F496006F1386 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
 		EC7166F71DE5F496006F1386 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
 		EC71670C1DE5F5E5006F1386 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7167011DE5F5CF006F1386 /* ReactiveKit.framework */; };
 		EC7ADFC31E1AD1D300D8F7E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EC1DE5F496006F1386 /* Client.swift */; };
 		EC7ADFC41E1AD1D300D8F7E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
-		EC7ADFC51E1AD1D300D8F7E0 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7ADFC51E1AD1D300D8F7E0 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* RequestParameters.swift */; };
 		EC7ADFC61E1AD1D300D8F7E0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
 		EC7ADFC71E1AD1D300D8F7E0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
 		EC7ADFC81E1AD1D500D8F7E0 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC7ADFD61E1AD23100D8F7E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EC1DE5F496006F1386 /* Client.swift */; };
 		EC7ADFD71E1AD23100D8F7E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */; };
-		EC7ADFD81E1AD23100D8F7E0 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */; };
+		EC7ADFD81E1AD23100D8F7E0 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166EF1DE5F496006F1386 /* RequestParameters.swift */; };
 		EC7ADFD91E1AD23100D8F7E0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F01DE5F496006F1386 /* Request.swift */; };
 		EC7ADFDA1E1AD23100D8F7E0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166F11DE5F496006F1386 /* Utilities.swift */; };
 		EC7ADFDB1E1AD23400D8F7E0 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,7 +91,7 @@
 		EC7166D51DE5F2F5006F1386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7166EC1DE5F496006F1386 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EC7166EF1DE5F496006F1386 /* RequestParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParameters.swift; sourceTree = "<group>"; };
 		EC7166F01DE5F496006F1386 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		EC7166F11DE5F496006F1386 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EC7166F81DE5F5CF006F1386 /* ReactiveKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveKit.xcodeproj; path = Carthage/Checkouts/ReactiveKit/ReactiveKit.xcodeproj; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 			children = (
 				EC7166EC1DE5F496006F1386 /* Client.swift */,
 				EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */,
-				EC7166EF1DE5F496006F1386 /* ParameterEncoding.swift */,
 				EC7166F01DE5F496006F1386 /* Request.swift */,
+				EC7166EF1DE5F496006F1386 /* RequestParameters.swift */,
 				EC7166F11DE5F496006F1386 /* Utilities.swift */,
 			);
 			path = Sources;
@@ -341,7 +341,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Reactive Kit";
 				TargetAttributes = {
 					EC7166C41DE5F2F5006F1386 = {
@@ -477,7 +477,7 @@
 			files = (
 				EC7166F71DE5F496006F1386 /* Utilities.swift in Sources */,
 				EC7166F61DE5F496006F1386 /* Request.swift in Sources */,
-				EC7166F51DE5F496006F1386 /* ParameterEncoding.swift in Sources */,
+				EC7166F51DE5F496006F1386 /* RequestParameters.swift in Sources */,
 				ECC282CB1E1AACA50032EEB2 /* Client.swift in Sources */,
 				EC7166F41DE5F496006F1386 /* HTTPMethod.swift in Sources */,
 			);
@@ -495,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7ADFC51E1AD1D300D8F7E0 /* ParameterEncoding.swift in Sources */,
+				EC7ADFC51E1AD1D300D8F7E0 /* RequestParameters.swift in Sources */,
 				EC7ADFC61E1AD1D300D8F7E0 /* Request.swift in Sources */,
 				EC7ADFC41E1AD1D300D8F7E0 /* HTTPMethod.swift in Sources */,
 				EC7ADFC71E1AD1D300D8F7E0 /* Utilities.swift in Sources */,
@@ -507,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7ADFD81E1AD23100D8F7E0 /* ParameterEncoding.swift in Sources */,
+				EC7ADFD81E1AD23100D8F7E0 /* RequestParameters.swift in Sources */,
 				EC7ADFD91E1AD23100D8F7E0 /* Request.swift in Sources */,
 				EC7ADFD71E1AD23100D8F7E0 /* HTTPMethod.swift in Sources */,
 				EC7ADFDA1E1AD23100D8F7E0 /* Utilities.swift in Sources */,
@@ -556,6 +556,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -610,6 +611,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

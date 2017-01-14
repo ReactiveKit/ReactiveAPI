@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28B507580A3240D708BF67D16CF5AFE7ED03CFFB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "28B507580A3240D708BF67D16CF5AFE7ED03CFFB" : 9223372036854775807,
+    "C1F6A63EF115019142AF6E3E8A173E32E3445DB3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "44EBBFF2-143F-4935-8613-FDEB3DC985A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "28B507580A3240D708BF67D16CF5AFE7ED03CFFB" : "ReactiveAPI\/",
+    "C1F6A63EF115019142AF6E3E8A173E32E3445DB3" : "ReactiveAPI\/Carthage\/Checkouts\/ReactiveKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ReactiveAPI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ReactiveAPI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ReactiveKit\/ReactiveAPI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28B507580A3240D708BF67D16CF5AFE7ED03CFFB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveKit\/ReactiveKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1F6A63EF115019142AF6E3E8A173E32E3445DB3"
+    }
+  ]
+}
