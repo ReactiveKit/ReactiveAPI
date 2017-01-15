@@ -41,14 +41,14 @@ public class SafeClient {
         .response(for: request)
         .retry(times: autoRetryTimes)
         .feedActivity(into: activity)
-        .suppressAndFeedError(into: errors, canUserRetry: canUserRetry, map: { $0.localizedDescription })
         .debug(request.path)
+        .suppressAndFeedError(into: errors, canUserRetry: canUserRetry, map: { $0.localizedDescription })
     } else {
       return base
         .response(for: request)
         .retry(times: autoRetryTimes)
-        .suppressAndFeedError(into: errors, canUserRetry: canUserRetry, map: { $0.localizedDescription })
         .debug(request.path)
+        .suppressAndFeedError(into: errors, canUserRetry: canUserRetry, map: { $0.localizedDescription })
     }
   }
 
