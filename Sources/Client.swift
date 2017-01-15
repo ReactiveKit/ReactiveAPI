@@ -54,7 +54,7 @@ open class Client {
     let request = prepare(request: request)
 
     let headers = defaultHeaders.merging(contentsOf: request.headers ?? [:])
-
+    
     var urlRequest = URLRequest(url: URL(string: self.baseURL / request.path)!)
     urlRequest.httpMethod = request.method.rawValue
     headers.forEach { urlRequest.addValue($1, forHTTPHeaderField: $0) }
@@ -128,5 +128,21 @@ open class Client {
 
     return response
       .timeout(after: timeoutInterval, with: .client("Network request timed out. Please check your connection."))
+  }
+}
+
+extension Client.Error {
+
+  public var localizedDescription: String {
+    switch self {
+    case .network(let error):
+      return error.localizedDescription
+    case .parser(let error):
+      return error.localizedDescription
+    case .remote(let error):
+      return error.localizedDescription
+    case .client(let message):
+      return message
+    }
   }
 }

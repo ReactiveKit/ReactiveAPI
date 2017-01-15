@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC28BB411E2B8A31002F34FE /* SafeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB401E2B8A31002F34FE /* SafeClient.swift */; };
+		EC28BB421E2B8A31002F34FE /* SafeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB401E2B8A31002F34FE /* SafeClient.swift */; };
+		EC28BB431E2B8A31002F34FE /* SafeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB401E2B8A31002F34FE /* SafeClient.swift */; };
+		EC28BB441E2B8A31002F34FE /* SafeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB401E2B8A31002F34FE /* SafeClient.swift */; };
+		EC28BB581E2BE92D002F34FE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB571E2BE92D002F34FE /* Activity.swift */; };
+		EC28BB591E2BE92D002F34FE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB571E2BE92D002F34FE /* Activity.swift */; };
+		EC28BB5A1E2BE92D002F34FE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB571E2BE92D002F34FE /* Activity.swift */; };
+		EC28BB5B1E2BE92D002F34FE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28BB571E2BE92D002F34FE /* Activity.swift */; };
 		EC7166CF1DE5F2F5006F1386 /* ReactiveAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7166C51DE5F2F5006F1386 /* ReactiveAPI.framework */; };
 		EC7166D41DE5F2F5006F1386 /* ReactiveAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7166D31DE5F2F5006F1386 /* ReactiveAPITests.swift */; };
 		EC7166D61DE5F2F5006F1386 /* ReactiveAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC28BB401E2B8A31002F34FE /* SafeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeClient.swift; sourceTree = "<group>"; };
+		EC28BB571E2BE92D002F34FE /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		EC7166C51DE5F2F5006F1386 /* ReactiveAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7166C81DE5F2F5006F1386 /* ReactiveAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveAPI.h; sourceTree = "<group>"; };
 		EC7166C91DE5F2F5006F1386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				EC7166EC1DE5F496006F1386 /* Client.swift */,
+				EC28BB401E2B8A31002F34FE /* SafeClient.swift */,
+				EC28BB571E2BE92D002F34FE /* Activity.swift */,
 				EC7166EE1DE5F496006F1386 /* HTTPMethod.swift */,
 				EC7166F01DE5F496006F1386 /* Request.swift */,
 				EC7166EF1DE5F496006F1386 /* RequestParameters.swift */,
@@ -363,6 +375,7 @@
 					};
 					EC7ADFE01E1AD27000D8F7E0 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -477,9 +490,11 @@
 			files = (
 				EC7166F71DE5F496006F1386 /* Utilities.swift in Sources */,
 				EC7166F61DE5F496006F1386 /* Request.swift in Sources */,
+				EC28BB581E2BE92D002F34FE /* Activity.swift in Sources */,
 				EC7166F51DE5F496006F1386 /* RequestParameters.swift in Sources */,
 				ECC282CB1E1AACA50032EEB2 /* Client.swift in Sources */,
 				EC7166F41DE5F496006F1386 /* HTTPMethod.swift in Sources */,
+				EC28BB411E2B8A31002F34FE /* SafeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,9 +512,11 @@
 			files = (
 				EC7ADFC51E1AD1D300D8F7E0 /* RequestParameters.swift in Sources */,
 				EC7ADFC61E1AD1D300D8F7E0 /* Request.swift in Sources */,
+				EC28BB591E2BE92D002F34FE /* Activity.swift in Sources */,
 				EC7ADFC41E1AD1D300D8F7E0 /* HTTPMethod.swift in Sources */,
 				EC7ADFC71E1AD1D300D8F7E0 /* Utilities.swift in Sources */,
 				EC7ADFC31E1AD1D300D8F7E0 /* Client.swift in Sources */,
+				EC28BB421E2B8A31002F34FE /* SafeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,9 +526,11 @@
 			files = (
 				EC7ADFD81E1AD23100D8F7E0 /* RequestParameters.swift in Sources */,
 				EC7ADFD91E1AD23100D8F7E0 /* Request.swift in Sources */,
+				EC28BB5A1E2BE92D002F34FE /* Activity.swift in Sources */,
 				EC7ADFD71E1AD23100D8F7E0 /* HTTPMethod.swift in Sources */,
 				EC7ADFDA1E1AD23100D8F7E0 /* Utilities.swift in Sources */,
 				EC7ADFD61E1AD23100D8F7E0 /* Client.swift in Sources */,
+				EC28BB431E2B8A31002F34FE /* SafeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +538,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC28BB5B1E2BE92D002F34FE /* Activity.swift in Sources */,
+				EC28BB441E2B8A31002F34FE /* SafeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +815,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -806,6 +828,7 @@
 				PRODUCT_NAME = ReactiveAPI;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -816,6 +839,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
